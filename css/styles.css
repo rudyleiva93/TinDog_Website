@@ -1,31 +1,33 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  height:1.5;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat";
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: Montserrat;
 }
 
 p {
   color: #8f8f8f;
 }
 
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  height:1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Containers */
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 /* Navogation Bar */
@@ -62,6 +64,11 @@ p {
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%
 }
 
 /* Title Image */
@@ -76,14 +83,16 @@ p {
 /* Features Section */
 
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
   padding: 5%;
-  text-align: center;
 }
 
 .features-icons {
@@ -99,7 +108,6 @@ p {
 /* Testimonials */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -110,15 +118,15 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Press */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -131,34 +139,25 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* Call to Action */
-
-#cta {
-  text-align: center;
-  background-color: #ff4c68;
-  color: #fff;
-  padding: 7% 15%;
-}
-
-.cta-heading {
-  font-family: Montserrat;
-  font-size: 3.5rem;
+.price-text {
+  font-size: 3rem;
   line-height: 1.5;
 }
 
-/* Footer Section */
+/* Call to Action */
 
-#footer {
-  padding: 7% 15%;
-  text-align: center;
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
 }
+
+/* Footer Section */
 
 .social-icon {
   margin: 20px 10px;
